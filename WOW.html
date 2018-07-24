@@ -1,0 +1,609 @@
+<! DOCTYPE html>
+<html>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Merienda" rel="stylesheet">
+
+
+<head>
+<style>
+* {box-sizing: border-box}
+
+/* Set height of body and the document to 100% */
+
+/* Style tab links */
+.tablink {
+    background-color: black;
+    color: white;
+    float: right;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 20px 15px;
+    font-size: 18px;
+    width: 20%;
+}
+
+.tablink:hover {
+    background-color: #29a329;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+    color: black;
+    display: none;
+    padding: 100px 20px;
+    height: 100%;
+}
+
+.tabs
+{
+  height: 60px;
+    width:100%;
+
+}
+
+
+html {
+    height: 100%;
+}
+
+#Home {background-image: url("home.jpg");
+background-position:
+center;
+background-repeat:
+ no-repeat;
+background-size:
+1318px 670px;}
+
+#Animals {background-image: url("allpage.jpg");
+background-position:
+center;
+background-repeat:
+ no-repeat;
+background-size:
+1340px 656px;}
+#Involved {background-image: url("allpage.jpg");
+background-position:
+center;
+background-repeat:
+ no-repeat;
+background-size:
+1345px 650px;}
+#About {background-image: url("allpage.jpg");
+background-position:
+center;
+background-repeat:
+ no-repeat;
+background-size:
+1350px 650px;}
+
+</style>
+
+<style>
+
+h1{
+ font-family: 'Raleway', sans-serif;
+ font-size: 40px;
+ font-style: none;
+ font-weight: bolder;
+ }
+h2{
+ font-family: 'Raleway', sans-serif;
+ font-size: 40px;
+ font-style: none;
+ font-weight: bold;
+
+}
+h3{
+ font-family: 'Raleway', sans-serif;
+ font-size: 30px;
+ font-style: none;
+ font-weight:bold;
+}
+Jh2{
+  font-family: 'Times New Roman',sans-serif;
+  font-size:55px
+}
+
+p{
+ font-family: 'Raleway', sans-serif;
+ font-size: 20px;
+ font-style: none;
+ font-weight:normal;
+}
+
+
+
+<img class="mySlides" src="pandas.jpg">
+<img class="mySlides" src="sun.jpg">
+<img class="mySlides" src="lions.jpg">
+
+</style>
+
+<style>
+* {
+   box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.columnk {
+   float: left;
+   width: 50%;
+   padding: 10px;
+    border: 1px solid black;
+}
+
+/* Clear floats after the columns */
+.rowk:after {
+   content: "";
+   display: table;
+   clear: both;
+}
+</style>
+
+
+<style>
+.containerzoha {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.centeredzoha {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.columnzoha {
+  float: left;
+  width: 32%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.rowzoha::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.column1 {
+  float: left;
+  width: 24%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row1::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+</style>
+
+<style>
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+}
+
+.title {
+    color: grey;
+    font-size: 18px;
+}
+
+</style>
+
+
+</head>
+
+<body>
+<button class="tablink" onclick="openPage('About', this, 'black')">About Us</button>
+<button class="tablink" onclick="openPage('Involved', this, 'black')">Get Involved</button>
+<button class="tablink" onclick="openPage('Animals', this, 'black')">Species</button>
+<button class="tablink" onclick="openPage('Home', this,'black')" id="defaultOpen">Home</button>
+
+<div id="Home" class="tabcontent">
+
+</div>
+
+
+</div>
+
+<div id="Involved" class="tabcontent">
+  <div>
+  <img class="mySlides" src="hello.jpg" style="width:100%" alt="Get Involved, See how you can make a difference">
+
+   <img class="mySlides" src="sun.jpg" style="width:100%" alt="elephant">
+   <img class="mySlides" src="pandas.jpg" style="width:100%" alt="pandas">
+   <img class="mySlides" src="zebra.jpg" style="width:100%" alt="zebra">
+   <img class="mySlides" src="sealyfe.jpg" style="width:100%" alt="volunteer with sea animal">
+   <img class="mySlides" src="seaturle.jpg" style="width:100%" alt="sea turtle">
+   <img class="mySlides" src="people.jpg" style="width:100%" alt="people">
+   <img class="mySlides" src="giraffe4.jpg" style="width:100%" alt="giraffe">
+   <img class="mySlides" src="poloarbears.jpg" style="width:100%" alt="polar bears">
+   <img class="mySlides" src="elepg.jpg" style="width:100%" alt="Elephants with volunteers">
+   <img class="mySlides" src="lionking.jpg" style="width:100%" alt="lion">
+   <img class="mySlides" src="2774.jpg" style="width:100%" alt="view">
+   <img class="mySlides" src="rihonswgirl.jpg" style="width:100%" alt="rihons">
+   <img class="mySlides" src="cheetah.jpg" style="width:100%" alt="cheetah">
+   <img class="mySlides" src="baby1.jpg" style="width:100%" alt="mother with her cubs">
+   <img class="mySlides" src="zebrainsun.jpg" style="width:100%" alt="zebras in the sun">
+   <img class="mySlides" src="ladywith.jpg" style="width:100%" alt="Volunteer with Organgutan">
+   <img class="mySlides" src="turtle.jpg" style="width:100%" alt="volunteers rescuing marine animal ">
+   <img class="mySlides" src="seali.jpg" style="width:100%" alt="sea">
+   <img class="mySlides" src="pen.jpg" style="width:100%" alt="Penguins">
+   <img class="mySlides" src="ladybears.jpg" style="width:100%" alt="lady polar bears">
+   <img class="mySlides" src="tiger.jpg" style="width:100%" alt="tiger">
+   <img class="mySlides" src="panpan.jpg" style="width:100%" alt="Panda">
+   <img class="mySlides" src="baby5.jpg" style="width:100%" alt="Baby animal with volunteer">
+   <img class="mySlides" src="emmyu.jpg" style="width:100%" alt="Volunteer with animal">
+   <img class="mySlides" src="dolphin.jpg" style="width:100%" alt="dolphin">
+   <img class="mySlides" src="anat.jpg" style="width:100%" alt="View2">
+
+   <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+   <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+ </div>
+
+ <h2 style="background-color:OliveDrab;";><center>How can I help?<center></h2>
+<center>
+<p>You can help Endangered Animals by volunteering and/or donating. On this page, we have a list of vertified donation websites and volunteer oppurtuintes you can look at! Each contribution to one of these organzations, supports animals in the wild whose popluation are decreasing rapidly.
+
+  <div class="rowk">
+    <div class="columnk" style="background-color:PowderBlue;">
+      <h2>Volunteer</h2>
+      <p><a href="https://www.goeco.org/tags/volunteer-for-wildlife" target="_blank">GoEco</a><p>
+        <p><a href="https://www.volunteerhq.org/volunteer-abroad-projects/wildlife-and-animal-care/" target="_blank">Volunteer HQ </a></p>
+        <p><a href="https://www.gviusa.com/volunteer-abroad/wildlife-conservation/" target="_blank">GVI</a></p>
+        <p><a href="https://www.gooverseas.com/volunteer-abroad/wildlife-conservation" target="_blank">Go Overseas</a></p>
+
+        <p><a href="https://greenglobaltravel.com/asian-animals-the-best-wildlife-conservation-programs/" target="_blank"> Green Global Travel</a></p></p>
+    </div>
+    <div class="columnk" style="background-color:PowderBlue";>
+      <h2>Donate</h2>
+      <p><a href="https://support.worldwildlife.org/site/Donation2?df_id=13430&13430.donation=form1&s_src=AWE1800OQ18491A01430RX&gclid=CjwKCAjwyrvaBRACEiwAcyuzRPL3PxgmmIXiJ1til-Do7nHposzHePa1NL2GjdRFzwnVXmypc01rAxoCBOMQAvD_BwE" target="_blank">World Wildlife Fund</a></p>
+      <p><a href="https://www.awf.org/donate" target="_blank"> African Wildlife Foundation</a></p>
+      <p><a href="https://oceana.org/" target="_blank">Oceana</a></p>
+      <p><a href="https://www.globalwildlife.org/donate/" target="_blank">Global Wildlife Conservation</a></p>
+      <p><a href="https://oceanconservancy.org/ways-to-give/" target="_blank">Ocean Conservancy</a></p></p>
+    </div>
+  </div>
+    <img src="safari.jpg" alt="safari">
+  <h6>We claim no ownership of any of the photos on ourwebsite. All credits goes to the owner of these photos<h6>
+
+</div>
+
+<div id="About" class="tabcontent">
+  <div class="containerzoha">
+  <img src="group.jpg" alt="Snow" height="820" width="1400">
+    <div class="centeredzoha"><p><font size="600"><Jh2>ABOUT US</Jh2></font
+      font-family: "Times New Roman", Times, serif;</p></div>
+  </div>
+
+  <p style="font-family: Impact, Charcoal, sans-serif; font-size: 36px; text-align:center;">OUR MISSION</p>
+  <div><p style="font-family: Garamond;  font-size: 30px; text-align:center;">A group of girls who want
+    to save the wildlife by
+    spreading awarness and getting involved.</p></div>
+  <p style="font-family: Garamond;  font-size: 29px; text-align:center;">Animals are being endangered due to hunting, literring, habitat destruction, and climate change. People around the world need to know that animals are vital to our world.
+    They need their habitats to live and survive. Our biggest problem is the endangerment of animals.Some actions you
+    can take to help
+  are:</p>
+
+  <div class="rowzoha">
+    <div class="columnzoha">
+      <figure>
+      <img src="lion.jpg" alt="Snow" style="width:110%">
+      <figcaption><p style="font-family: Garamond;  font-size: 20px; text-align:center;">DO NOT LITTER. Thousands of animals are being killed because
+       they are eating trash that could suffocate them or upster their stoach.
+      Furthermore, it pollutes the environment and their habitat.</figcaption></p>
+      </figure>
+
+      <figure>
+    </div>
+    <div class="columnzoha">
+      <img src="raise.jpg" alt="Forest" style="width:90%">
+      <figcaption><p style="font-family: Garamond;  font-size: 20px; text-align:center;">RAISE AWARENESS.  Inform people about the endangerment of animals. Notify your communinty about any fundraisers and events that will help the animals.For example, you can hand out flyers or make ads as long as you do your part and make people aware!</figcaption>
+      </figure>
+    </div>
+
+      <figure>
+    <div class="columnzoha">
+      <img src="sloth.jpg" alt="Mountains" style="width:90%">
+      <figcaption><p style="font-family: Garamond;  font-size: 20px; text-align:center;">CARE. Adopt an animal to look after. Volunteer at zoos or animal rescues.</figcaption>
+      </figure>
+    </div>
+  <p style="font-family: Impact, Charcoal, sans-serif; font-size: 36px; text-align:center;">WHO ARE WE</p>
+  <div class="rowzoha">
+      <div class="column1">
+  <div class="card">
+    <img src="zohanew.jpg" alt="John" style="width:50%">
+    <h1>Zoha Jamal</h1>
+    <p class="title">Junior-Ranchview <p>Contact Me: zohaj931@gmail.com</p><p style="font-family: Garamond;  font-size: 18px; text-align:center;">Favorite Animal- Sloth</p>
+    <p style="font-family: Garamond;  font-size: 18px; text-align:center;">I have a crazy dog. He made me realize animal life is impotant. We use dogs for happiness and emtertainment.
+    They deserve the same respect as us. And i love hanging out with my friends!</p> </div></div>
+
+    <div class="column1">
+    <div class="card">
+      <img src="less2.jpg" alt="John" style="width:50%">
+      <h1>Leslie Garcia</h1>
+      <p class="title">Senior-Garza ECHS  <p>Contact Me: garcialeslie214@gmail.com</p><p style="font-family: Garamond;  font-size: 18px; text-align:center;">Favorite Animal- Panda</p>
+      <p style="font-family: Garamond;  font-size: 18px; text-align:center;">I love animals and i have 2 dogs.I want to spread awarness about global warming is affecting animal and their habitats. In the future, I hope to volunteer in animal shelter.For fun, I love to do makeup.</p>
+    </div></div>
+    <div class="column1">
+      <div class="card">
+        <img src="jett2.jpg" alt="John" style="width:50%">
+        <h1>Jett Norris</h1>
+        <p class="title">Senior-Woodrow Wilson  <p>Contact Me: jettpacck@gmail.com</p><p style="font-family: Garamond;  font-size: 18px; text-align:center;"> Favorite Animal- Dinosaur</p>
+        <p style="font-family: Garamond;  font-size: 18px; text-align:center;">I have 3 dogs and love animals. Every animal should be treated with respect and kindness. I love participating in funraisers for animals. I love to play video games when we're bored.</p>
+      </div></div>
+  <div class="column1">
+        <div class="card">
+          <img src="kals.jpg" alt="John" style="width:50%">
+          <h1>Kailon Jackson</h1>
+          <p class="title">Senior-Mansfield Lakeridge <p>Contact Me: Kailonjackson44@gmail.com</p> <p style="font-family: Garamond;  font-size: 18px; text-align:center;">Favorite Animal- Dog</p>
+          <p style="font-family: Garamond;  font-size: 18px; text-align:center;">I love volunteering and helping out my community. After volunteering at a animal clinic, my love for animals grew even more. Also, I'm a cupcake enthusiast who loves trying new food spots.</p>
+  </div>
+
+
+  </div>
+  </div>
+
+</div>
+
+<script>
+function openPage(pageName,elmnt,color) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablink");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].style.backgroundColor = "";
+    }
+    document.getElementById(pageName).style.display = "block";
+    elmnt.style.backgroundColor = color;
+
+}
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  x[slideIndex-1].style.display = "block";
+}
+
+
+</script>
+
+<div id="Animals" class="tabcontent">
+
+
+<style>
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.centered {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+</style>
+
+
+<div class="container">
+<img src="polar.jpg" alt="Snow" height="750" width="1250">
+  <div class="centered"><p><font size="1000"><Jh2>SPECIES</Jh2></font
+    font-family: "Times New Roman", Times, serif;</p></div>
+</div>
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+
+
+.columnjett {
+  float: left;
+  width: 20%;
+  padding: 5px;
+}
+
+.row::after {
+  float:left;
+  content: "";
+  clear: both;
+  display: table;
+
+}
+</style>
+<style>
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted white;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 170px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 50%;
+    margin-left: -84px;
+
+}
+
+
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+</style>
+
+<div class="typeform-widget" data-url="https://kj2008.typeform.com/to/gYFjYR" style="width: 100%; height: 500px;"></div>
+ <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"></div>
+
+<div class="paragraph"><p style="font-family: Garamond;  font-size: 29px; text-align:center;">An endangered animal is one that is at risk of becoming extinct or the risk of no longer being in existence. Dinosaurs are the largest group of animals
+to have ever become extinct.
+
+Endangerment of animals is occurring at an alarming rate due to environmental changes, the destruction of habitat, the shortage of food supply, and
+being hunted. Many of these causes are preventable if more people were educated about the dangers of their habits. Here are some creatures that are criticaly endangered or are getting near that point
+</h1>
+</head>
+<body>
+<div id="left">
+</div>
+<div class="row">
+  <div class="columnjett">
+    <body style="text-align:center;">
+    <div class="tooltip"> <img align="left" src="elephant.png"/>
+      <span class="tooltiptext"><h3>Elephants</h3>Today, the most urgent threat to elephants is large-scale poaching
+        to supply the illegal ivory trade. Other threats facing elephants in Africa
+        and Asia include conflict with humans and habitat loss and degradation.
+    </span>
+  </div>
+  </div>
+  <div class="columnjett">
+  <div class="tooltip"> <img src="whale.png"/>
+    <span class="tooltiptext"><h3>Humpback Whales</h3>Collisions with ships, entanglement in
+      fishing gear, and pollution injure and kill whales.
+      Shipping activity and oil and gas development cause noise that can disrupt
+      or even damage whales’ hearing. Such disturbance can exclude whales from
+      critical feeding and breeding grounds, and disrupt their migratory paths.
+  </span>
+  </div>
+</div>
+<div class="columnjett">
+  <body style="text-align:center;">
+  <div class="tooltip"> <img src="tiger.png" align="right"/>
+    <span class="tooltiptext"><h3>Tigers</h3>At least 3,890 tigers remain in the wild.
+       Tigers are threatened by poaching, retaliatory killings and
+       habitat loss. They are forced to compete for space
+       with dense and often growing human populations.
+  </span>
+  </div>
+</div>
+<div class="columnjett">
+  <body style="text-align:center;">
+  <div class="tooltip"> <img src="sealion.png"/>
+    <span class="tooltiptext"><h3>Sea Lions</h3>They are vulnerable to the effects of climate
+      change on ocean currents, which impacts their fish prey abundance. They are
+      also victims of bycatch in fisheries. Fishermen try to prevent them
+      from coming aboard their boats by putting up barbwire as a barrier, but this causes
+      severe injuries to the sea lions.
+  </span>
+  </div>
+</div>
+<div class="columnjett">
+  <body style="text-align:center;">
+  <div class="tooltip"> <img src="polarbear.png"/>
+    <span class="tooltiptext"><h3>Polar Bears</h3>Because of ongoing and potential loss of their
+      sea ice habitat resulting from climate change, polar bears were listed
+      as a threatened species in 2008. As climate change forces polar bears to spend longer time
+      onshore, they come in contact more often with Arctic coastal communities
+      and others working in the Arctic.
+  </span>
+  </div>
+</div>
+</div>
+<div class="row">
+  <div class="columnjett">
+    <body style="text-align:center;">
+    <div class="tooltip"> <img src="giraffe.png"/>
+      <span class="tooltiptext"><h3>Giraffes</h3>Giraffes are hunted for their meat, coat and tails. The tail is
+        prized for good luck bracelets, fly whisks and string for sewing beads.
+        The coat is used for shield coverings. Habitat destruction and
+        fragmentation are also threats to giraffe populations.
+    </span>
+    </div>
+</div>
+  <div class="columnjett">
+    <body style="text-align:center;">
+    <div class="tooltip"> <img src="or.png"/>
+      <span class="tooltiptext"><h3>Orangutans</h3>A century ago there were probably more than
+        230,000 orangutans in total, but the Bornean orangutan is now estimated
+        at about 104,700 and the Sumatran about 7,500.
+        Females give birth to one infant at a time about every 3-5 years, so
+        these species can take a long time to recover from population declines.
+        They are killed for food or in retaliation when they move into agricultural areas and destroy crops.
+    </span>
+    </div>
+  </div>
+  <div class="columnjett">
+    <body style="text-align:center;">
+    <div class="tooltip"> <img src="panda.png"/>
+      <span class="tooltiptext"><h3>Pandas</h3>Pandas play a crucial role in the bamboo forests
+        where they roam by spreading seeds and facilitating growth of vegetation.
+        Roads and railroads are increasingly fragmenting the forest, which isolates
+        panda populations and prevents mating. Forest destruction also reduces
+        pandas’ access to the bamboo they need to survive.
+
+    </span>
+    </div>
+  </div>
+  <div class="columnjett">
+    <body style="text-align:center;">
+    <div class="tooltip"> <img src="rhino.png"/>
+      <span class="tooltiptext"><h3>Rhinos</h3>Today very few rhinos survive outside
+        national parks and reserves due to persistent poaching and habitat loss
+        over many decades. Poaching poses the biggest threat to rhinos. Their
+        horns are ground up for use in traditional medicines or are sold
+        as a high-value gift item.
+    </span>
+    </div>
+  </div>
+  <div class="columnjett">
+    <body style="text-align:center;">
+    <div class="tooltip"> <img align="right" src="seaturtle.png"/>
+      <span class="tooltiptext"><h3>Sea Turtles</h3>Nearly
+        all species of sea turtle are classified as Endangered. Slaughtered for
+        their eggs, meat, skin and shells, sea turtles suffer from poaching and
+        over-exploitation. Climate change also has an impact on turtle nesting
+        sites. It alters sand temperatures, which then affects the sex of hatchlings.
+
+    </span>
+    </div>
+
+</div>
+
+
+</body>
+</html>
